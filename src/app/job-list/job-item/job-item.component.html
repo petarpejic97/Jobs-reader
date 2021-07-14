@@ -1,0 +1,15 @@
+<a
+  class="list-group-item clearfix d-flex p-0 "
+  routerLink='/job-detail/{{id}}'
+  (click)="onSelected(job.title)">
+  <span class="float-left">
+    <img
+      [src]="job.company_logo"
+      class="img-responsive">
+</span>
+  <div class="float-right">
+    <p class="list-group-item-heading"><b>{{ job.title }}</b></p>
+    <p class="list-group-item-heading jobtype"><b>{{ job.type }}</b></p>
+</div>
+  
+</a>

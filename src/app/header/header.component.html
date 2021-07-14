@@ -1,0 +1,8 @@
+<div class="header-wrapper position-relative">
+    <div *ngIf ="showBack" class="float-left d-flex align-items-center back-wrapper" routerLink='/job-list' (click)="onBack()">
+        <img src="https://lh3.googleusercontent.com/proxy/3nT6uDtYME8LTeqB2h1ri7pwcHMHx7KmhtvaAIlA_KfXr8yVTH8wos7p3qfAzbkx_88YI0ybSiCWW6AqN3r7_E76CVmv_wCJN06rucBlgi7kUyvzDA"  style="width: 20px;margin-right: 5px; " alt="">
+        <label class="back mb-0">Jobs reader</label> 
+    </div>
+    <label class="title" [style.font-size]="fontSize">{{title}}</label>
+</div>
+

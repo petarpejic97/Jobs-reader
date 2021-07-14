@@ -1,0 +1,10 @@
+<div class="row">
+    <div class="col-md-12 pr-0 pl-0">
+        <app-job-item
+        *ngFor="let jobElement of jobs"
+        [job]="jobElement"
+        [id]="jobElement.id"></app-job-item>
+    </div>
+</div>
+  
+  

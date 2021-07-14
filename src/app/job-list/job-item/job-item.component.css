@@ -1,0 +1,16 @@
+a{
+    min-height: 5rem;
+    font-family: cursive;
+}
+img{
+    height: 5rem;
+    width: 4.375rem;
+}
+span{
+    margin-right: 10px;
+}
+.jobtype{
+    background: linear-gradient(to top, white, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

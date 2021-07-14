@@ -1,0 +1,11 @@
+@media (max-width: 1000px) {
+    .row {
+        margin-right: 0; 
+        margin-left: 0;
+     }
+    col-md-12{
+        padding-right: 0; 
+        padding-left: 0;
+    }
+}
+
